@@ -1,0 +1,21 @@
+{
+  "name": "group",
+  "version": "0.1.0",
+  "devDependencies": {
+    "async": "^1.4.0"
+  },
+  "description": "group the files to give you a clear work station.",
+  "main": "group.js",
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/group"
+  },
+  "keywords": [
+    "nodejs",
+    "assistant"
+  ],
+  "author": "Bryan Yang",
+  "license": "ISC"
+}
