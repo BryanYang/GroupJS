@@ -1,8 +1,6 @@
 # GroupJS
 归类你的目录。使你的工作目录更加清爽~
 
-
-## Overview
 #如何使用
 
 1.安装 [nodejs](https://nodejs.org/en/) ,安装完成后，**Terminal** 运行`node -v`如果出现版本号，则成功安装。
@@ -27,7 +25,7 @@ export NODE_PATH=/usr/local/lib/node_modules
 cd /Users/[用户目录]/Library/Application Support/万达集团/万信/216263/DownFiles
 ```
 ```
-node group
+node group -t
 ```
 成功运行后，你的目录结构应该为：
 * 动态图片
@@ -37,3 +35,8 @@ node group
 * 文件夹
 * 压缩文件
 * 应用程序包
+
+
+#其它命令
+* 在目录下运行 `node group -m`  将按照月份归类该目录
+
