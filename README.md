@@ -1,5 +1,25 @@
 # GroupJS
 归类你的目录。使你的工作目录更加清爽~
+在各种格式文件以及文件夹混杂的目录中，寻找你想要的文件往往很困难。如果你想找一个月前别人发给你的一份word 文档，可能只有费时的搜索能帮你。
+如果我们运行一条命令，所有的word文档,图片，ppt啦等文件都自动塞到各自格式的文件夹里。是不是很酷？Groupjs来帮助你一键分类。
+归类前目录：
+* aaa.png
+* bbb.pdf
+* ttt.pdf
+* ccc.doc
+* eee.doc
+* ddd.ppt
+* ....
+
+归类后：
+- Word文档
+	+ ccc.doc
+	+ eee.doc
+- pdf文档
+	+ bbb.pdf
+	+ ttt.pdf
+- 图片
+	+ aaa.png
 
 #如何使用
 

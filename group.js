@@ -12,11 +12,10 @@ var groupFun = undefined;
  * 目录对应的文件格式列表
  * 当根据文件类型来组织目录时，
  * 会根据这个表将文件放到对应目录
- * 如果新文件格式，表中没有，将放到others，
+ * 如果新文件格式，表中没有，将放到【其它】，
  * 可添加或者修改新的对应关系。
  */
 var suf_Dir = {
-    'Excel文档': ['xls', 'xlsx'],
     'Excel文档': ['xls', 'xlsx'],
     'Word文档': ['doc', 'docx'],
     '应用程序包': ['dmg', 'exe', 'apk', 'msi'],
